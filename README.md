@@ -69,6 +69,8 @@ Use **Postman** ou **Insomnia**:
    
 jwt.expiration=86400000
 
+Author: Sílvio Gabriel 
+
 
 
 No arquivo `src/main/resources/application.properties` você deve configurar:
