@@ -18,9 +18,8 @@ Uma **API REST de autenticação** desenvolvida em **Java com Spring Boot**, res
 ✔ Geração de token JWT para sessões autenticadas  
 ✔ Endpoints REST seguros  
 
-> Se ainda não tem token válido, não poderá acessar recursos protegidos.
 
-## 🛠️ Dependências Principais
+## Dependências Principais
 
 
 - `spring-boot-starter-web`  
@@ -31,7 +30,7 @@ Uma **API REST de autenticação** desenvolvida em **Java com Spring Boot**, res
 
 
 
-## 🧾 Endpoints
+##  Endpoints
 
 | Método | Endpoint           | Acesso                 |<br>
 |--------|-------------------|------------------------|<br>
@@ -41,9 +40,10 @@ Uma **API REST de autenticação** desenvolvida em **Java com Spring Boot**, res
 | GET    | `/profile`         | Seguro (token JWT)     |<br>
 
 
-## ⚙️ Configuração
+##  Configuração
 
 ### 1) Banco de Dados
+
 No arquivo `src/main/resources/application.properties` você deve configurar:
 spring.datasource.url=jdbc:mysql://localhost:3306/seubanco
 spring.datasource.username=usuario
