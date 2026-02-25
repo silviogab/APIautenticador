@@ -73,4 +73,3 @@ Author: Sílvio Gabriel
 
 
 
-No arquivo `src/main/resources/application.properties` você deve configurar:
